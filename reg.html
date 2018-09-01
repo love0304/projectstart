@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reg.css">
+	<script src = "js/require.js" defer async="true" data-main = "js/reg"></script>
+</head>
+<body>
+<!--logo-->
+	<div id="logo">
+		<img src="images/logo_new.jpg" alt="">
+	</div>
+
+<!--注册-->
+	<div id="reg">
+		<div class="pic">
+			<img src="images/login120412_newlogo.jpg" alt="">
+		</div>
+		<form action="data/reg.php" method="post" class="fm">
+			<div class="text">
+				<h2>注册新用户</h2>
+				<span>我已经注册，现在就<a href="/projectstart/dist/log.html">登录</a></span>
+			</div>
+			<div class="ver">
+				<input class="ve" type="text" placeholder="验证码">
+				<span class="btn"></span>
+				<div class="hint1">请输入图片验证码</div>
+			</div>
+			<div class="phone-ver">
+				<input class="phone-num" id="phone-num" type="text" name="username" placeholder="请输入手机号"> 
+				<span class="btn2">获取短信验证码</span>
+				<div class="hint2" id="hint2">请输入有效的手机号</div>
+			</div>
+			<div class="phone">
+				<input type="text" placeholder="填写手机验证码">
+				<div class="hint3">请输入手机接收到的验证码</div>
+			</div>
+			<div class="pass">
+				<input type="text" id="password" name="password" placeholder="设定登陆密码">
+				<div class="hint4" id="passwrite">
+					6-16位字符，可使用字母、数字或符号的组合
+				</div>
+			</div>
+			<div class="passagain">
+				<input type="text" id="qrmm" placeholder="再次输入密码">
+				<div class="hint5" id="qrmm1">
+					再次输入登录密码，俩次输入必须一致
+				</div>
+			</div>
+			<div class="read">
+				<div class="tick" id="tick"></div>
+				<span class="span2">请阅读<span class="span1">《VANCL凡客诚品服务条款》</span></span>
+			</div>
+			<input class="inp" id="inp" type="submit" value="立即注册"/>
+		</form>
+	</div>
+
+<!--bottom!-->
+	<div id="bottom">
+		<div class="bottom-box">
+			<p>Copyright 2007 - 2018 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号</p>
+			<div class="bg1"></div>
+			<div class="bg2"></div>
+			<div class="bg3"></div>
+			<div class="bg4">
+				<img src="images/kexin_brand_for_others.png" alt="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

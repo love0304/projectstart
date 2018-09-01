@@ -1,0 +1,282 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/* 头部 */
+#logo {
+  height: 56px;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #919191;
+  padding-top: 12px; }
+  #logo img {
+    float: left; }
+  #logo span {
+    font-size: 12px;
+    color: #000;
+    float: right;
+    line-height: 56px; }
+
+/* 登录 */
+#log {
+  height: 523px;
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #999999; }
+  #log .pic {
+    height: 425px;
+    width: 600px;
+    margin-left: 98px;
+    float: left;
+    margin-top: 98px; }
+  #log .login {
+    height: 523px;
+    width: 400px;
+    float: left; }
+    #log .login .title {
+      height: 58px;
+      width: 400px;
+      margin-top: 36px;
+      line-height: 58px; }
+      #log .login .title h2 {
+        float: left;
+        font-size: 20px;
+        color: #979797;
+        font-weight: 900; }
+      #log .login .title span {
+        font-size: 12px;
+        float: right;
+        color: #979797; }
+        #log .login .title span a {
+          color: #b42025; }
+    #log .login .log-check {
+      height: 35px;
+      width: 398px;
+      border: 1px solid #d1d1d1; }
+      #log .login .log-check #com {
+        height: 35px;
+        width: 199px;
+        background: #b42025;
+        float: left;
+        line-height: 35px;
+        text-align: center;
+        color: #fff; }
+      #log .login .log-check #fast {
+        height: 35px;
+        width: 199px;
+        background: #f5f5f5;
+        float: left;
+        line-height: 35px;
+        text-align: center;
+        color: #656565; }
+    #log .login .log-box {
+      height: 373px;
+      width: 398px;
+      border: 1px solid #d1d1d1;
+      border-top: 0;
+      border-bottom: 1px solid #999999; }
+      #log .login .log-box .username {
+        height: 45px;
+        width: 360px;
+        border: 1px solid #cbcbcb;
+        margin-top: 28px;
+        margin-left: 20px; }
+      #log .login .log-box .password {
+        height: 45px;
+        width: 360px;
+        border: 1px solid #cbcbcb;
+        margin-top: 28px;
+        margin-left: 20px; }
+      #log .login .log-box .log1 {
+        height: 14px;
+        width: 360px;
+        margin-left: 20px;
+        padding-top: 26px; }
+        #log .login .log-box .log1 span {
+          float: right;
+          font-size: 12px;
+          color: #b42025;
+          cursor: pointer; }
+      #log .login .log-box .sub-box {
+        height: 95px;
+        width: 398px;
+        border-bottom: 1px dashed #909090; }
+        #log .login .log-box .sub-box .sub {
+          height: 40px;
+          width: 360px;
+          background: #b42025;
+          color: #fff;
+          margin-left: 20px;
+          border: 0; }
+      #log .login .log-box .logbtm {
+        height: 76px;
+        width: 398px;
+        padding-top: 20px; }
+        #log .login .log-box .logbtm span {
+          font-size: 12px;
+          font-weight: 900;
+          color: #a4a4a4;
+          margin-left: 20px; }
+        #log .login .log-box .logbtm img {
+          height: 34px;
+          width: 350px;
+          margin-left: 20px; }
+    #log .login .log-fast {
+      height: 389px;
+      width: 375px;
+      border: 1px solid #d1d1d1;
+      padding-left: 23px;
+      display: none; }
+      #log .login .log-fast .fast-phone {
+        height: 75px;
+        width: 375px; }
+        #log .login .log-fast .fast-phone input {
+          height: 45px;
+          width: 250px;
+          margin-top: 10px;
+          border: 1px solid #d1d1d1;
+          float: left; }
+        #log .login .log-fast .fast-phone .get-num {
+          height: 45px;
+          width: 97px;
+          border: 1px solid #d1d1d1;
+          float: left;
+          line-height: 45px;
+          text-align: center;
+          margin-left: 10px;
+          margin-top: 10px;
+          color: #cd3a24;
+          background: #f5f5f5;
+          cursor: pointer; }
+      #log .login .log-fast .fast-ver {
+        height: 63px;
+        width: 375px; }
+        #log .login .log-fast .fast-ver input {
+          height: 43px;
+          width: 142px;
+          border: 1px solid #cbcbcb;
+          float: left; }
+        #log .login .log-fast .fast-ver .ver1 {
+          height: 43px;
+          width: 132px;
+          border: 1px solid #e0e0e0;
+          border-left: 0;
+          float: left;
+          font-size: 24px;
+          line-height: 43px;
+          text-align: center;
+          cursor: pointer; }
+        #log .login .log-fast .fast-ver .text {
+          font-size: 12px;
+          float: left;
+          cursor: pointer; }
+      #log .login .log-fast .phone-ver {
+        height: 65px;
+        width: 375px; }
+        #log .login .log-fast .phone-ver input {
+          height: 45px;
+          width: 360px;
+          border: 1px solid #cbcbcb; }
+      #log .login .log-fast .fast-sub {
+        height: 85px;
+        width: 375px;
+        border-bottom: 1px dashed #909090; }
+        #log .login .log-fast .fast-sub input {
+          height: 45px;
+          width: 360px;
+          background: #b42025;
+          color: #fff; }
+      #log .login .log-fast .fast-btm {
+        height: 85px;
+        width: 375px;
+        padding-top: 12px; }
+        #log .login .log-fast .fast-btm p {
+          color: #a4a4b7;
+          font-size: 12px;
+          font-weight: 900; }
+        #log .login .log-fast .fast-btm img {
+          margin-top: 12px;
+          height: 34px;
+          width: 350px; }
+
+/* bottom */
+#bottom {
+  height: 160px;
+  margin-top: 30px; }
+  #bottom .bottom-box {
+    height: 145px;
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; }
+    #bottom .bottom-box p {
+      font-size: 12px;
+      color: #3e3a39; }
+    #bottom .bottom-box .bg1 {
+      height: 40px;
+      width: 112px;
+      margin-top: 35px;
+      margin-left: 235px;
+      background: url(../images/spritesbgtop.png) no-repeat 0px -582px;
+      float: left;
+      cursor: pointer; }
+    #bottom .bottom-box .bg2 {
+      height: 45px;
+      width: 156px;
+      background: url(../images/spritesbgtop.png) no-repeat 0px -629px;
+      float: left;
+      margin-top: 33px;
+      margin-left: 20px;
+      cursor: pointer; }
+    #bottom .bottom-box .bg3 {
+      width: 245px;
+      height: 42px;
+      background: url(../images/spritesbgtop.png) no-repeat 0px -674px;
+      float: left;
+      margin-top: 35px;
+      margin-left: 20px;
+      cursor: pointer; }
+    #bottom .bottom-box .bg4 {
+      height: 58px;
+      width: 160px;
+      float: left;
+      margin-left: 10px;
+      margin-top: 33px;
+      cursor: pointer; }
+      #bottom .bottom-box .bg4 img {
+        height: 48px;
+        width: 160px; }

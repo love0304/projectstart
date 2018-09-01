@@ -1,0 +1,347 @@
+@charset "UTF-8";
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, input {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: '微软雅黑'; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px; }
+
+b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, u {
+  text-decoration: none; }
+
+img {
+  border: 0;
+  display: block; }
+
+ul, ol, li {
+  list-style: none; }
+
+input {
+  outline: none; }
+
+.clear-fix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+/* 头部 */
+#top {
+  height: 40px;
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 14px;
+  border-bottom: 1px solid #7a7f89; }
+  #top img {
+    float: left; }
+  #top .top-reg {
+    height: 40px;
+    width: 304px;
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+    color: #666666; }
+    #top .top-reg .reg {
+      color: #a10000; }
+    #top .top-reg .help {
+      margin-left: 45px; }
+
+/* 订单提交流程 */
+#sub-pic {
+  height: 40px;
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 10px; }
+  #sub-pic .sub-box {
+    height: 28px;
+    width: 552px;
+    background: url(../images/newProm.gif) no-repeat;
+    font-size: 12px;
+    line-height: 28px; }
+    #sub-pic .sub-box .span1 {
+      margin-left: 50px;
+      color: #fff; }
+    #sub-pic .sub-box .span2 {
+      margin-left: 83px;
+      color: #666; }
+    #sub-pic .sub-box .span3 {
+      margin-left: 93px;
+      color: #666666; }
+
+/* 无商品显示 */
+#no-commod {
+  height: 120px;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 120px;
+  font-size: 14px;
+  font-weight: 900;
+  color: #656565;
+  display: none; }
+  #no-commod a {
+    color: #b81c22; }
+
+/* 有商品显示 */
+#commod {
+  min-height: 345px;
+  width: 980px;
+  margin: 0 auto; }
+  #commod .car {
+    height: 40px;
+    width: 980px; }
+    #commod .car .car1 {
+      height: 26px;
+      width: 40px;
+      background: url(../images/newpromotion.gif) no-repeat right top;
+      float: left; }
+    #commod .car span {
+      float: left;
+      margin-left: 10px;
+      font-size: 18px;
+      font-weight: 900; }
+  #commod .p1 {
+    height: 27px;
+    width: 980px;
+    font-size: 12px;
+    color: #656565; }
+    #commod .p1 .span1 {
+      color: #a10000; }
+  #commod .detail {
+    height: 37px;
+    width: 980px;
+    background: #f7f7f7;
+    line-height: 37px;
+    font-size: 12px;
+    text-align: center; }
+    #commod .detail .tick {
+      height: 37px;
+      width: 293px;
+      float: left;
+      color: #333333; }
+      #commod .detail .tick .tick1 {
+        height: 11px;
+        width: 11px;
+        border: 1px solid #8e8f8f;
+        display: block;
+        float: left;
+        line-height: 11px;
+        margin-top: 12px;
+        margin-left: 15px;
+        text-align: center; }
+    #commod .detail .trade {
+      height: 37px;
+      width: 224px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .size {
+      height: 37px;
+      width: 80px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .price {
+      height: 37px;
+      width: 90px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .num {
+      height: 37px;
+      width: 70px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .discount {
+      height: 37px;
+      width: 68px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .count {
+      height: 37px;
+      width: 85px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+    #commod .detail .action {
+      height: 37px;
+      width: 70px;
+      float: left;
+      font-size: 12px;
+      color: #333333;
+      line-height: 37px; }
+  #commod .detail1 {
+    min-height: 67px;
+    width: 948px;
+    border: 1px solid #dcdfe4;
+    border-top: 0;
+    padding: 21px 15px; }
+    #commod .detail1 .detail1-box {
+      height: 67px;
+      width: 948px;
+      background: #f8f8f8;
+      margin-bottom: 10px; }
+      #commod .detail1 .detail1-box .dui {
+        height: 67px;
+        width: 140px;
+        float: left; }
+        #commod .detail1 .detail1-box .dui span {
+          height: 11px;
+          width: 11px;
+          border: 1px solid #8e8f8f;
+          display: block;
+          line-height: 11px;
+          margin-top: 28px;
+          margin-left: 30px; }
+      #commod .detail1 .detail1-box .trade1 {
+        height: 67px;
+        width: 320px;
+        float: left; }
+        #commod .detail1 .detail1-box .trade1 img {
+          height: 48px;
+          width: 48px;
+          border: 1px solid #c8c8c8;
+          float: left;
+          margin-top: 10px; }
+        #commod .detail1 .detail1-box .trade1 span {
+          font-size: 12px;
+          line-height: 67px;
+          margin-left: 10px; }
+      #commod .detail1 .detail1-box .size1 {
+        height: 67px;
+        width: 120px;
+        float: left;
+        line-height: 67px;
+        text-align: center; }
+      #commod .detail1 .detail1-box .price1 {
+        height: 67px;
+        width: 90px;
+        font-size: 12px;
+        line-height: 67px;
+        text-align: center;
+        float: left; }
+      #commod .detail1 .detail1-box .num1 {
+        height: 67px;
+        width: 76px;
+        font-size: 12px;
+        line-height: 67px;
+        text-align: center;
+        float: left; }
+        #commod .detail1 .detail1-box .num1 .inp {
+          height: 18px;
+          width: 30px;
+          border: 1px solid #d8d8d8;
+          text-align: center;
+          float: left;
+          margin-top: 18px; }
+        #commod .detail1 .detail1-box .num1 span {
+          height: 18px;
+          width: 15px;
+          border: 1px solid #d8d8d8;
+          text-align: center;
+          line-height: 18px;
+          display: block;
+          float: left;
+          margin-top: 18px; }
+      #commod .detail1 .detail1-box .dis1 {
+        height: 67px;
+        width: 62px;
+        float: left;
+        text-align: center;
+        line-height: 67px; }
+      #commod .detail1 .detail1-box .cou1 {
+        height: 67px;
+        width: 86px;
+        text-align: center;
+        line-height: 67px;
+        font-size: 12px;
+        float: left; }
+      #commod .detail1 .detail1-box .act1 {
+        height: 67px;
+        width: 52px;
+        float: left;
+        text-align: center;
+        line-height: 67px;
+        font-size: 12px; }
+  #commod .btm-box {
+    height: 116px;
+    width: 978px;
+    background: #fffef5;
+    border: 1px solid #ebe5bb; }
+    #commod .btm-box .btm-left {
+      float: left; }
+      #commod .btm-box .btm-left p {
+        font-size: 12px;
+        color: #333333;
+        margin-top: 30px;
+        margin-left: 15px; }
+        #commod .btm-box .btm-left p .span11 {
+          color: #c12f00; }
+        #commod .btm-box .btm-left p .span10 {
+          font-size: 18px;
+          color: #a10000; }
+    #commod .btm-box .shopping {
+      height: 50px;
+      width: 295px;
+      float: right;
+      margin-top: 50px;
+      margin-right: 10px; }
+      #commod .btm-box .shopping .span2 {
+        height: 37px;
+        width: 122px;
+        display: block;
+        background: url(../images/newpromotion.gif) -160px 0;
+        text-align: center;
+        line-height: 37px;
+        float: left;
+        margin-top: 6px;
+        color: #fff; }
+      #commod .btm-box .shopping .span3 {
+        height: 50px;
+        width: 160px;
+        background: url(../images/newpromotion.gif) no-repeat;
+        text-align: center;
+        line-height: 50px;
+        float: right; }
+
+/* 底部 */
+#bottom {
+  height: 82px;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 42px; }
+  #bottom p {
+    font-size: 12px; }
+  #bottom .one {
+    float: left;
+    margin-left: 252px;
+    margin-top: 20px; }
+  #bottom .two {
+    float: left;
+    margin-left: 24px;
+    margin-top: 20px; }
+  #bottom .three {
+    float: left;
+    margin-left: 24px;
+    margin-top: 20px; }
